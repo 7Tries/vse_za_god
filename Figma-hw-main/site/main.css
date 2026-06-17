@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px transparent white;
+}
+.nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+ul{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+ul li a:hover{
+    color: white;
+}
+.number_container{
+    width: 160px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.Garden{
+    width: 100%;
+    height: 750px;
+    border-top: 2px dashed white;
+    display: flex;
+    justify-content: center;
+}
+.Garden_container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+.left h1{
+    font-size: 60px;
+    color: white;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+.way{
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.Garden .Garden_container h1{
+    color: #177165;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+.number_container .trial{
+    color:white;
+}
+.trial{
+    width: 100px;
+    height: 50px;
+    background-color: #177165;
+}
+.Garden .Garden_container button{
+    background-color: #177165;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Garden{
+    background-image: url(BG.jpg);
+}
+.nemo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 300px;
+}
+.pups h1{
+    color: #177165;
+}
+.pups{
+    width: 125%;
+    height: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alivio1{
+  font-weight: 20px;
+  font-style: normal;
+}
+.pp{
+    margin-top: 3%;
+}
+.gg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+}
+.hh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190%;
+    height: 20px;
+}
+.first h1{
+    color: #177165;
+    font-size: 2cm;
+    font-weight: 550;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.avilivilio{
+    margin-top: 50px;
+}
+.title{
+    margin-top: 50px;
+}
+.Answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240%;
+    height: 150px;
+}
+.text{
+  font-weight: 20;
+  font-style: normal;
+}
+.flower{
+    display: flex;
+    justify-content: center;
+    width: 230%;
+    height:50%;
+}
+.Understand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145%;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.draw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175%;
+    height: 100px;
+}
+.ww{
+    display: flex;
+    justify-content: flex-start;
+    width: 160%;
+    height: 90px;
+}
+.second h1{
+    color: #177165;
+    font-size: 2cm;
+    font-weight: 550 ;
+}
+.third h1{
+    color: #177165;
+    font-size: 2cm;
+    font-weight: 550;
+}
+.third{
+    display: flex;
+    justify-content: center;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+}
+.tt{
+  font-weight: 20;
+  font-style: normal;
+}
+.draw{
+    display: flex;
+    justify-content: center;
+}
+.reflect{
+  font-weight: 20;
+  font-style: normal;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    width: 175%;
+    height: 50%;
+    margin-top: 20px;
+}
+.woman{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:450px ;
+    margin-top: 20px;
+}
+.qq{
+    margin-right: 0px;
+    margin-left: 70px;
+}
+.Thirdpage{
+    background-color: #245852;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.ThirdpageText{
+    padding: 160px 0 150px ;
+}
+.ThirdpageText p{
+    margin-bottom: 30px;
+}
+.section3{
+    background-color: #245852;
+    width: 100%;
+    height: 922px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yy{
+    height: 515px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+video{
+    width: 800px;
+}
+.txt{
+    color: white;
+    font-size: 25px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.txt h1{
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+}
+.txt button{
+    height: 65px;
+    width: 240px;
+}
+.ii{
+    display: flex;
+    justify-content: end;
+    font-weight: 10;
+    font-style: normal;
+    width:60%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+.tell{
+    color: #177165;
+    display: flex;
+    justify-content: end;
+    width: 75%;
+    margin-top: 30px;
+}
+.stress{
+    display: flex;
+    justify-content: end;
+    font-weight: 10;
+    font-style: normal;
+    width: 78%;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+.way button{
+    background-color: #01996D;
+    color: white;
+    width: 165px;
+    height: 50px;
+    margin-left: 1130px;
+    margin-top: 30px;
+}
+.ll {
+    margin-top: 160px;
+    padding: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: #245852;
+    }
+.ll a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+}
+.Alivio {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    margin-left: 12%;
+}
+.mm ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 85px;
+    color: black;
+}
