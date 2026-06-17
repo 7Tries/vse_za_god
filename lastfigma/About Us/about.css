@@ -1,0 +1,740 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glavnaya {
+  width: 100vw;
+  height: 220vh;
+  background-color: #141414;
+}
+.glavnaya .shapka {
+  width: 100vw;
+  height: 15vh;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glavnaya .shapka .navigaciya {
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.glavnaya .shapka .navigaciya .logotip img {
+  width: 160px;
+  height: 48px;
+}
+.glavnaya .shapka .navigaciya .menyu {
+  width: 30vw;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glavnaya .shapka .navigaciya .menyu ul {
+  width: 30vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.glavnaya .shapka .navigaciya .menyu .ssylki {
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+.glavnaya .shapka .navigaciya .menyu .ssylki:hover {
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  background-color: #141414;
+}
+.glavnaya .shapka .navigaciya .svyaz {
+  width: 4vw;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.glavnaya .shapka .navigaciya .svyaz ul {
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+.glavnaya .shapka .navigaciya .svyaz ul li {
+  display: flex;
+  justify-content: center;
+}
+.glavnaya .shapka .navigaciya .svyaz ul li a {
+  width: 96px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.glavnaya .shapka .navigaciya .svyaz ul li a:hover {
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  background-color: #141414;
+}
+.glavnaya .geroy {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.glavnaya .geroy .levaya-chast {
+  width: 755px;
+  height: 411px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.glavnaya .geroy .levaya-chast .verh-blok {
+  width: 755px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.glavnaya .geroy .levaya-chast .verh-blok h1 {
+  color: white;
+  font-size: 48px;
+}
+.glavnaya .geroy .levaya-chast .verh-blok p {
+  color: #999999;
+  font-size: 18px;
+}
+.glavnaya .geroy .levaya-chast .niz-blok {
+  width: 755px;
+  height: 137px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.glavnaya .geroy .levaya-chast .niz-blok .statistika {
+  width: 238px;
+  height: 137px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #262626;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+.glavnaya .geroy .levaya-chast .niz-blok .statistika h2 {
+  color: white;
+  font-size: 40px;
+}
+.glavnaya .geroy .levaya-chast .niz-blok .statistika p {
+  color: #999999;
+  font-size: 18px;
+}
+.glavnaya .geroy .pravaya-kartinka {
+  width: 755px;
+  height: 546px;
+}
+.glavnaya .cennosti {
+  width: 100vw;
+  height: 66vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.glavnaya .cennosti .cennosti-tekst {
+  width: 517px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.glavnaya .cennosti .cennosti-tekst h1 {
+  color: white;
+  font-size: 48px;
+}
+.glavnaya .cennosti .cennosti-tekst p {
+  color: #999999;
+  font-size: 18px;
+}
+.glavnaya .cennosti .cennosti-setka {
+  width: 999px;
+  height: 476px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto 1fr;
+  align-items: center;
+  justify-items: center;
+  border-radius: 20px;
+  border: 10px solid #333333;
+  padding: 20px;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka {
+  width: 410px;
+  height: 188px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka:nth-child(2) {
+  border-left: 0.9px solid gray;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka:nth-child(5) {
+  border-left: 0.9px solid gray;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka .cennost-ikonka {
+  width: 309px;
+  height: 74px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka .cennost-ikonka img {
+  width: 50px;
+  height: 50px;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka .cennost-ikonka h2 {
+  color: white;
+  font-size: 24px;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka .cennost-opis {
+  width: 309px;
+  height: 54px;
+}
+.glavnaya .cennosti .cennosti-setka .cennost-kartochka .cennost-opis p {
+  color: #999999;
+  font-size: 18px;
+}
+.glavnaya .cennosti .cennosti-setka .razdelitel {
+  grid-column: 1/3;
+  width: 879px;
+  height: 0.5px;
+  background-color: #333333;
+}
+.glavnaya .dostizheniya {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.glavnaya .dostizheniya .dostizh-zagolovok {
+  width: 1497px;
+  height: 140px;
+}
+.glavnaya .dostizheniya .dostizh-zagolovok h1 {
+  color: white;
+  font-size: 40px;
+}
+.glavnaya .dostizheniya .dostizh-zagolovok p {
+  color: #999999;
+  font-size: 18px;
+}
+.glavnaya .dostizheniya .dostizh-kartochki {
+  width: 83vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.glavnaya .dostizheniya .dostizh-kartochki .dostizh-kartochka {
+  width: 506px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  background-color: #1a1a1a;
+}
+.glavnaya .dostizheniya .dostizh-kartochki .dostizh-kartochka h2 {
+  color: white;
+  font-size: 24px;
+}
+.glavnaya .dostizheniya .dostizh-kartochki .dostizh-kartochka p {
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.etapy {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #141414;
+}
+.etapy .etapy-vvedenie {
+  width: 80vw;
+  text-align: center;
+}
+.etapy .etapy-vvedenie h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.etapy .etapy-vvedenie p {
+  color: #999999;
+  font-size: 18px;
+}
+.etapy .etapy-setka {
+  width: 90vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-content: center;
+}
+.etapy .etapy-setka .etap {
+  width: 513px;
+  height: 329px;
+}
+.etapy .etapy-setka .etap .etap-nomer {
+  width: 513px;
+  height: 36px;
+}
+.etapy .etapy-setka .etap .etap-nomer h3 {
+  color: white;
+  font-size: 18px;
+  border-left: 3px solid #703bf7;
+  padding-left: 10px;
+}
+.etapy .etapy-setka .etap .etap-soderzhanie {
+  width: 513px;
+  height: 267px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: radial-gradient(circle 150px at left top, rgba(80, 30, 200, 0.3), transparent), #131316;
+  border: 1px solid #703bf7;
+  border-radius: 0px 12px 12px 12px;
+  padding: 30px;
+  color: #fff;
+}
+.etapy .etapy-setka .etap .etap-soderzhanie h2 {
+  font-size: 22px;
+}
+.etapy .etapy-setka .etap .etap-soderzhanie p {
+  color: #aaaaaa;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.komanda {
+  width: 100vw;
+  height: 80vh;
+  background-color: #141414;
+}
+.komanda .komanda-vvedenie {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.komanda .komanda-vvedenie h2 {
+  color: white;
+  margin-left: 90px;
+  font-size: 48px;
+}
+.komanda .komanda-vvedenie p {
+  font-size: 18px;
+  margin-left: 90px;
+  color: #999999;
+}
+.komanda .komanda-vvedenie .komanda-setka {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik {
+  width: 377px;
+  height: 517px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: #1a1a1a;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-foto {
+  width: 300px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-foto img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-info h3 {
+  font-size: 24px;
+  color: white;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-info p {
+  font-size: 18px;
+  color: #999999;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-knopka {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-knopka .privet {
+  width: 317px;
+  height: 72px;
+  border-radius: 60px;
+  color: white;
+  border: 1px solid gray;
+  font-size: 18px;
+  background-color: #1A1A1A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.komanda .komanda-vvedenie .komanda-setka .sotrudnik .sotrudnik-knopka .privet:hover {
+  background-color: #262626;
+}
+
+.klienty {
+  width: 100vw;
+  height: 110vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.klienty .klienty-konteyner {
+  width: 1597px;
+  height: 826px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.klienty .klienty-konteyner .klienty-zagolovok {
+  width: 1597px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.klienty .klienty-konteyner .klienty-zagolovok h1 {
+  color: white;
+  font-size: 48px;
+}
+.klienty .klienty-konteyner .klienty-zagolovok p {
+  font-size: 18px;
+  color: #999999;
+}
+.klienty .klienty-konteyner .klienty-setka {
+  width: 1597px;
+  height: 478px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka {
+  width: 774px;
+  height: 478px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 4px solid gray;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-shapka {
+  width: 674px;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-shapka .klient-info p {
+  font-size: 18px;
+  color: #999999;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-shapka .klient-info h3 {
+  font-size: 30px;
+  color: white;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-shapka .klient-sayt {
+  width: 148px;
+  height: 63px;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid gray;
+  background-color: #1A1A1A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-shapka .klient-sayt:hover {
+  background-color: #262626;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal {
+  width: 674px;
+  height: 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal .klient-domen {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal .klient-kategoriya {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-left: 1px solid gray;
+  padding-left: 30px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal .detal-ikonka {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #999999;
+  font-size: 16px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal .detal-ikonka img {
+  width: 20px;
+  height: 20px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-detal .detal-znach {
+  color: white;
+  font-size: 16px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-otziv {
+  width: 674px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 20px;
+  color: #999999;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-otziv .otziv-metka {
+  font-size: 16px;
+}
+.klienty .klienty-konteyner .klienty-setka .klient-kartochka .klient-otziv .otziv-tekst p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.klienty .klienty-konteyner .stranicy {
+  width: 83vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-liniya {
+  width: 83vw;
+  height: 0.1vh;
+  background-color: gray;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz .stranicy-info {
+  color: #999999;
+  font-size: 16px;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz .stranicy-info span {
+  color: white;
+  font-weight: 600;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz .stranicy-knopki {
+  display: flex;
+  gap: 15px;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz .stranicy-knopki .strelka {
+  width: 58px;
+  height: 58px;
+  border: 0.5px solid gray;
+  border-radius: 100px;
+  color: white;
+  font-size: 20px;
+  background-color: #262626;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.klienty .klienty-konteyner .stranicy .stranicy-niz .stranicy-knopki .strelka:hover {
+  background-color: #333333;
+}
+
+.prizyv {
+  width: 100vw;
+  height: 29vh;
+  background-color: #141414;
+  background-image: url(photo/CTA\ \(1\).png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prizyv .prizyv-konteyner {
+  width: 89vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prizyv .prizyv-konteyner .prizyv-tekst {
+  width: 1154px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.prizyv .prizyv-konteyner .prizyv-tekst h1 {
+  color: white;
+  font-size: 48px;
+}
+.prizyv .prizyv-konteyner .prizyv-tekst p {
+  color: #999999;
+  font-size: 18px;
+}
+.prizyv .prizyv-konteyner .prizyv-knopka {
+  width: 192px;
+  height: 63px;
+  background-color: #703BF7;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.prizyv .prizyv-konteyner .prizyv-knopka:hover {
+  background-color: #5a2fd6;
+}
+
+.podval {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+}
+.podval .podval-verh {
+  width: 90vw;
+  height: 35vh;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.podval .podval-verh .podval-info {
+  width: 538px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.podval .podval-verh .podval-info .podval-logo {
+  width: 160px;
+  height: 48px;
+}
+.podval .podval-verh .podval-info .podval-pochta {
+  width: 323px;
+  height: 46px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #141414;
+  border: 0.5px solid gray;
+  cursor: pointer;
+  font-size: 15px;
+}
+.podval .podval-verh .podval-menyu {
+  width: 978px;
+  height: 254px;
+  display: flex;
+  justify-content: space-between;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka {
+  width: 160px;
+  height: 274px;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka h3 {
+  padding-bottom: 20px;
+  color: #999999;
+  font-size: 18px;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka p {
+  padding-bottom: 14px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka p:hover {
+  color: #703bf7;
+}
+.podval .podval-niz {
+  width: 100vw;
+  height: 10vh;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.podval .podval-niz .podval-prava {
+  width: 600px;
+  height: 20px;
+  display: flex;
+}
+.podval .podval-niz .podval-prava p {
+  padding-right: 20px;
+  font-size: 15px;
+}
+.podval .podval-niz .podval-socseti img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}/*# sourceMappingURL=about.css.map */

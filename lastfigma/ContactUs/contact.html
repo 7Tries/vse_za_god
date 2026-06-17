@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section class="nachalo">
+        <header class="verh">
+            <nav class="menyu-navigacii">
+                <div class="brend">
+                    <img src="photo/Logo.png" alt="Logo">
+                </div>
+                <div class="ssylki-nav">
+                    <ul>
+                        <li><a href="../Home/index.html">Home</a></li>
+                        <li><a href="../About Us/about.html">About Us</a></li>
+                        <li><a href="../Properties/prop.html">Properties</a></li>
+                        <li><a href="../Service/service.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="svyaz-nav">
+                    <ul>
+                        <li><a href="../ContactUs/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="baner">
+            <h1>Get in Touch with Estatein</h1>
+            <p>Welcome to Estatein's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, we're just a message away. Reach out to us, and let's start a conversation.</p>
+        </div>
+        <div class="kontakty-setka">
+            <div class="kontakt-kartochka">
+                <div class="strelka-vverh">
+                    <img src="photo/Icon.png" alt="Arrow">
+                </div>
+                <img src="photo/Icon Container (18).png" alt="Email">
+                <span>info@estatein.com</span>
+            </div>
+            <div class="kontakt-kartochka">
+                <div class="strelka-vverh">
+                    <img src="photo/Icon.png" alt="Arrow">
+                </div>
+                <img src="photo/Icon Container (19).png" alt="Phone">
+                <span>+1 (123) 456-7890</span>
+            </div>
+            <div class="kontakt-kartochka">
+                <div class="strelka-vverh">
+                    <img src="photo/Icon.png" alt="Arrow">
+                </div>
+                <img src="photo/Icon Container (20).png" alt="Location">
+                <span>Main Headquarters</span>
+            </div>
+            <div class="kontakt-kartochka">
+                <div class="strelka-vverh">
+                    <img src="photo/Icon.png" alt="Arrow">
+                </div>
+                <img src="photo/Icon Container (21).png" alt="Social">
+                <span>Instagram LinkedIn Facebook</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="forma">
+        <div class="forma-zagolovok">
+            <div class="forma-tekst">
+                <h1>Let's Connect</h1>
+                <p>We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.</p>
+            </div>
+        </div>
+        <div class="forma-obertka">
+            <div class="forma-blok">
+                <div class="stroka-poley">
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter First Name" class="pole-vvod">
+                        </div>
+                    </div>
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter Last Name" class="pole-vvod">
+                        </div>
+                    </div>
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your Email" class="pole-vvod">
+                        </div>
+                    </div>
+                </div>
+                <div class="stroka-poley">
+                    <div class="pole-vybor">
+                        <label>Preferred Location</label>
+                        <select class="spisok" name="mesto">
+                            <option value="galaxy">Selected Location</option>
+                        </select>
+                    </div>
+                    <div class="pole-vybor">
+                        <label>Property Type</label>
+                        <select class="spisok" name="tip">
+                            <option value="galaxy">Select Property Type</option>
+                        </select>
+                    </div>
+                    <div class="pole-vybor">
+                        <label>How Did You Hear About Us?</label>
+                        <select class="spisok" name="istochnik">
+                            <option value="galaxy">Select</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="stroka-poley">
+                    <div class="pole-soobshenie">
+                        <label>Message</label>
+                        <textarea placeholder="Enter your Message here.." class="pole-tekst"></textarea>
+                    </div>
+                </div>
+                <div class="forma-niz">
+                    <label class="soglasie">
+                        <input type="checkbox">
+                        <span class="soglasie-tekst">I agree with <span class="podcherk">Terms of Use</span> and <span class="podcherk">Privacy Policy</span></span>
+                    </label>
+                    <button class="otpravit">Send Your Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ofisy">
+        <div class="ofisy-vvedenie">
+            <img class="dekor" src="../Assets/Abstract Design.png" alt="Decor">
+            <h1>Discover Our Office Locations</h1>
+            <p>Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you</p>
+        </div>
+
+        <div class="ofisy-filtry">
+            <button class="filtr-aktivny">All</button>
+            <button>Regional</button>
+            <button>International</button>
+        </div>
+
+        <div id="ofisy-kartochki" class="ofisy-kartochki"></div>
+    </section>
+
+    <section class="gallereya">
+        <div id="gallereya-konteyner" class="gallereya-konteyner"></div>
+    </section>
+
+    <section class="prizyv">
+        <div class="prizyv-obertka">
+            <div class="prizyv-tekst">
+                <h1>Start Your Real Estate Journey Today</h1>
+                <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
+            </div>
+            <button class="prizyv-knopka">Explore Properties</button>
+        </div>
+    </section>
+
+    <footer class="podval">
+        <div class="podval-verh">
+            <div class="podval-info">
+                <img class="podval-logo" src="photo/Logo.png" alt="Logo">
+                <button class="podval-pochta">Enter Your Email <img src="photo/Icon (1).png" alt="Send"></button>
+            </div>
+            <div class="podval-menyu">
+                <div class="podval-kolonka">
+                    <h3>Home</h3>
+                    <p>Hero Section</p>
+                    <p>Features</p>
+                    <p>Properties</p>
+                    <p>Testimonials</p>
+                    <p>FAQ's</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>About Us</h3>
+                    <p>Our Story</p>
+                    <p>Our Works</p>
+                    <p>How It Works</p>
+                    <p>Our Team</p>
+                    <p>Our Clients</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Properties</h3>
+                    <p>Portfolio</p>
+                    <p>Categories</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Services</h3>
+                    <p>Valuation Mastery</p>
+                    <p>Strategic Marketing</p>
+                    <p>Negotiation Wizardry</p>
+                    <p>Closing Success</p>
+                    <p>Property Management</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Contact Us</h3>
+                    <p>Contact Form</p>
+                    <p>Our Offices</p>
+                </div>
+            </div>
+        </div>
+        <div class="podval-niz">
+            <div class="podval-prava">
+                <p>@2023 Estatein. All Rights Reserved.</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="podval-socseti">
+                <img src="photo/Social Icon.png" alt="Social">
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
