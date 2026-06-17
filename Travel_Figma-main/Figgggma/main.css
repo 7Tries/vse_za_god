@@ -1,0 +1,492 @@
+* { margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body { font-family: "Roboto", sans-serif; }
+/* почему то не работает шрифт, мб я что-то не так делаю, но перепробовал всё, что только помнил:( */
+header {
+    width: 1920px;
+    height: 1375px;
+    background-color: #004449;
+}
+nav {
+    width: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5%;
+}
+.brand {
+    margin-top: 40px;
+    color: #ffffff;
+}
+.login-link {
+    margin-top: 42px;
+    color: #FFFEF0;
+    text-decoration: none;
+    transition: 0.2s all ease;
+}
+.intro {
+    width: auto;
+    height: 300px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 35vw;
+}
+.intro h1 {
+    font-size: 75px;
+    color: aliceblue;
+}
+.intro h2 {
+    margin-bottom: 30px;
+    font-size: 80px;
+    color: #FFAC7F;
+}
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(162, 210, 253);
+}
+.alerts-btn {
+    margin-right: 328px;
+    width: 250px;
+    color: #004449;
+    background-color: #0BFF80;
+    border: none;
+    border-radius: 800px;
+    font-size: 17px;
+}
+.media-mentions-title {
+    width: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.media-mentions {
+    font-size: 18px;
+    color: #FFFEF0;
+}
+.media-logos {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.how-it-works {
+    background-image: url(Great.png);
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 1199px;
+    background-repeat: no-repeat;
+}
+.how-it-works h3 {
+    color: #004449;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 100px;
+}
+.icons {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 540px;
+    width: 100%;
+}
+.cards{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    color: #004449;
+    margin-top: 0px;
+}
+.firstcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.start{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.Choose{
+    font-size: 20px;
+}
+.secondcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.watch{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.we{
+    font-size: 20px;
+}
+.thirdcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.Then{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.With{
+    font-size: 20px;
+}
+.choose{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.great-deals {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 602px;
+    margin-top: 50px;
+    gap: 1%;
+}
+.bgdeals{
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+    background-color: #D7FFC2;
+    margin-right: 27%;
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 7px;
+}
+.great-deals h1 {
+    font-size: 48px;
+    color: #004449;
+    margin-bottom: 10px;
+}
+.deals-summary {
+    font-size: 18px;
+    color: #004449;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.get-free-flight-btn {
+    width: 170px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: #483CFF;
+    border: none;
+    font-size: 20px;
+    color: #fff0f0;
+    margin-bottom: 10px;
+}
+
+.real-deals {
+    background-color: beige;
+    width: auto;
+    height: 894px;
+}
+.deals-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+    gap: 13px;
+}
+.deals-header h1, .deals-header h2 {
+    font-size: 48px;
+    color: #004449;
+    background-color: #60ff0a;
+    border-radius: 13px;
+}
+.deals-header h2 {
+    background: none; border-radius: 0;
+}
+.carousel {
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.arrow-left, .arrow-right {
+    font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.deal-card {
+    background: #fff;
+    margin: 0 15px;
+    width: 180px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 40px #ccc;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deal-card img {
+    max-width: 140px;
+    margin-bottom: 8px;
+}
+.price {
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 13px;
+    color: #004449;
+    margin: 10px 0 20px 0;
+}
+.route {
+    font-size: 24px;
+    color: #004449;
+}
+
+.testimonials-container {
+    background-image: url(More.png);
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 1076px;
+    background-repeat: no-repeat;
+}
+.loved {
+    color: #004449;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 20px;
+}
+.travelers {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.count {
+    color: #004449;
+    background-color: #D7FFC2;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.againcards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    padding: 200px;
+}
+
+.info1{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    height: 300px;
+    width: 1000px;
+}
+.Member{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.info2{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 17px;
+    height: 300px;
+    width: 1000px;
+}
+.since2015{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.info3{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    height: 300px;
+    width: 1000px;
+}
+.aaa2017{
+    font-size: 15px;
+    margin-top: 10%;
+}
+.strlks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.strlk-left{
+    font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.strlk-right {
+font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 3%;
+}
+.Four {
+    background: #FFFEF0;
+    width: 1920px;
+    height: 664px;
+}
+.Position {
+    position: relative;
+    width: 768px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.imgWrapper {
+    height: 327px;
+    width: 384px;
+    display: block;
+}
+.Textus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.Textus .headline {
+    font-size: 55px;
+    color: #004449;
+}
+.Textus .subtitle {
+    color: #004449;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.FonSkyThree {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 1920px;
+    height: 550px;
+}
+.FonSkyThree button {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFEF0;
+    background: #483CFF;
+    font-size: 16px;
+    width: 150px;
+    height: 90px;
+    margin-bottom: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 200px;
+}
+.footerGrid {
+  background: #004449;
+  width: 100vw;
+  padding: 60px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  color: #FFFEF0;
+  max-width: 1920px;
+  margin-top: 40px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #FFFEF0;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col li {
+  margin-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFEF0;
+  font-size: 16px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 20px;
+}
+.Konec .endInfo {
+    font-family: 'Roboto', sans-serif;
+    color: #004449;
+    font-size: 16px;
+    margin-left: 1600px;
+}
