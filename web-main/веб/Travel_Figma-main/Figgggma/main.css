@@ -1,0 +1,783 @@
+* { margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body { font-family: "Roboto", sans-serif; }
+header {
+    width: 1920px;
+    height: 1375px;
+    background-color: #004449;
+}
+nav {
+    width: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5%;
+}
+.brand {
+    margin-top: 40px;
+    color: #ffffff;
+}
+.login-link {
+    margin-top: 42px;
+    color: #FFFEF0;
+    text-decoration: none;
+    transition: 0.2s all ease;
+}
+.intro {
+    width: auto;
+    height: 300px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 35vw;
+}
+.intro h1 {
+    font-size: 75px;
+    color: aliceblue;
+}
+.intro h2 {
+    margin-bottom: 30px;
+    font-size: 80px;
+    color: #FFAC7F;
+}
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(162, 210, 253);
+}
+.alerts-btn {
+    margin-right: 328px;
+    width: 250px;
+    color: #004449;
+    background-color: #0BFF80;
+    border: none;
+    border-radius: 800px;
+    font-size: 17px;
+}
+.media-mentions-title {
+    width: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.media-mentions {
+    font-size: 18px;
+    color: #FFFEF0;
+}
+.media-logos {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.how-it-works {
+    background-image: url(Great.png);
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 1199px;
+    background-repeat: no-repeat;
+}
+.how-it-works h3 {
+    color: #004449;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 100px;
+}
+.icons {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 540px;
+    width: 100%;
+}
+.cards{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    color: #004449;
+    margin-top: 0px;
+}
+.firstcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.start{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.Choose{
+    font-size: 20px;
+}
+.secondcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.watch{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.we{
+    font-size: 20px;
+}
+.thirdcard{
+    background-color: #fcebdd;
+    border-radius: 4px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.Then{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.With{
+    font-size: 20px;
+}
+.choose{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.great-deals {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 602px;
+    margin-top: 50px;
+    gap: 1%;
+}
+.bgdeals{
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+    background-color: #D7FFC2;
+    margin-right: 27%;
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 7px;
+}
+.great-deals h1 {
+    font-size: 48px;
+    color: #004449;
+    margin-bottom: 10px;
+}
+.deals-summary {
+    font-size: 18px;
+    color: #004449;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.get-free-flight-btn {
+    width: 170px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: #483CFF;
+    border: none;
+    font-size: 20px;
+    color: #fff0f0;
+    margin-bottom: 10px;
+}
+
+.real-deals {
+    background-color: beige;
+    width: auto;
+    height: 894px;
+}
+.deals-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+    gap: 13px;
+}
+.deals-header h1, .deals-header h2 {
+    font-size: 48px;
+    color: #004449;
+    background-color: #60ff0a;
+    border-radius: 13px;
+}
+.deals-header h2 {
+    background: none; border-radius: 0;
+}
+.carousel {
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.arrow-left, .arrow-right {
+    font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.deal-card {
+    background: #fff;
+    margin: 0 15px;
+    width: 180px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 40px #ccc;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deal-card img {
+    max-width: 140px;
+    margin-bottom: 8px;
+}
+.price {
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 13px;
+    color: #004449;
+    margin: 10px 0 20px 0;
+}
+.route {
+    font-size: 24px;
+    color: #004449;
+}
+
+.testimonials-container {
+    background-image: url(More.png);
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 1076px;
+    background-repeat: no-repeat;
+}
+.loved {
+    color: #004449;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 20px;
+}
+.travelers {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.count {
+    color: #004449;
+    background-color: #D7FFC2;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.againcards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    padding: 200px;
+}
+
+.info1{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    height: 300px;
+    width: 1000px;
+}
+.Member{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.info2{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 17px;
+    height: 300px;
+    width: 1000px;
+}
+.since2015{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.info3{
+    background-color: #fff9f4;
+    padding: 2%;
+    border-radius: 8px;
+    height: 300px;
+    width: 1000px;
+}
+.aaa2017{
+    font-size: 15px;
+    margin-top: 10%;
+}
+.strlks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.strlk-left{
+    font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.strlk-right {
+font-size: 50px;
+    background-color: #004449;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 3%;
+}
+.Four {
+    background: #FFFEF0;
+    width: 1920px;
+    height: 664px;
+}
+.Position {
+    position: relative;
+    width: 768px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.imgWrapper {
+    height: 327px;
+    width: 384px;
+    display: block;
+}
+.Textus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.Textus .headline {
+    font-size: 55px;
+    color: #004449;
+}
+.Textus .subtitle {
+    color: #004449;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.FonSkyThree {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 1920px;
+    height: 550px;
+}
+.FonSkyThree button {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFEF0;
+    background: #483CFF;
+    font-size: 16px;
+    width: 150px;
+    height: 90px;
+    margin-bottom: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 200px;
+}
+.footerGrid {
+  background: #004449;
+  width: 100vw;
+  padding: 60px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  color: #FFFEF0;
+  max-width: 1920px;
+  margin-top: 40px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #FFFEF0;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col li {
+  margin-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFEF0;
+  font-size: 16px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 20px;
+}
+.Konec .endInfo {
+    font-family: 'Roboto', sans-serif;
+    color: #004449;
+    font-size: 16px;
+    margin-left: 1600px;
+}
+/* ===== Mobile 430x932 ===== */
+@media (max-width: 430px) {
+
+  /* базовая защита от горизонтального скролла */
+  html, body { width: 100%; overflow-x: hidden; }
+  body { font-size: 16px; }
+
+  /* убираем фиксированную ширину 1920 у секций */
+  header,
+  .how-it-works,
+  .testimonials-container,
+  .Four {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+  }
+
+  /* ===== Header ===== */
+  header { padding-bottom: 24px; }
+
+  nav {
+    width: 100%;
+    height: auto;
+    padding: 18px 16px;
+    justify-content: space-between;
+  }
+
+  .brand {
+    margin-top: 0;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    max-width: 75%;
+  }
+
+  .login-link { margin-top: 0; font-size: 12px; }
+
+  .intro {
+    margin: 0;
+    padding: 70px 16px 18px 16px;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .intro h1 { font-size: 44px; line-height: 1.05; }
+  .intro h2 { font-size: 46px; line-height: 1.05; margin-bottom: 14px; }
+  .subtitle { font-size: 16px; margin-bottom: 16px; }
+
+  .alerts-btn {
+    margin-right: 0;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .media-mentions-title { margin-top: 22px; }
+  .media-mentions { font-size: 14px; }
+
+  /* логотипы: можно либо перенос (wrap), либо горизонтальный скролл */
+  .media-logos {
+    gap: 14px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+  }
+  .media-logos img { height: 18px; width: auto; flex: 0 0 auto; }
+
+  /* ===== How it works ===== */
+  .how-it-works {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 24px;
+  }
+
+  .how-it-works h3 {
+    padding: 32px 16px 16px 16px;
+    font-size: 28px;
+  }
+
+  .icons {
+    height: auto;
+    gap: 28px;
+    padding: 0 16px;
+    margin-bottom: 12px;
+  }
+  .icons img { height: 56px; width: auto; }
+
+  .cards {
+    height: auto;
+    flex-direction: column;   /* вместо ряда — колонка */
+    gap: 14px;
+    padding: 0 16px;
+  }
+
+  .firstcard, .secondcard, .thirdcard {
+    width: 100%;
+    height: auto;
+    padding: 14px 14px 16px 14px;
+    gap: 10px;
+  }
+
+  .start, .watch, .Then { font-size: 18px; margin-top: 0; }
+  .Choose, .we, .With { font-size: 14px; line-height: 1.35; }
+
+  /* ===== Booked / Going / Gone ===== */
+  .bgdeals {
+    margin: 18px 16px 0 16px;   /* вместо 27% */
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+  .great-deals {
+    height: auto;
+    margin-top: 0;
+    gap: 10px;
+  }
+
+  .great-deals h1 { font-size: 26px; text-align: center; }
+  .deals-summary { font-size: 13px; line-height: 1.35; }
+  .get-free-flight-btn { width: 190px; height: 54px; font-size: 16px; }
+
+  /* ===== Real deals (карусель) ===== */
+  .real-deals { height: auto; padding: 22px 0 26px 0; }
+
+  .deals-header {
+    height: auto;
+    padding: 0 16px;
+    gap: 10px;
+    align-items: baseline;
+  }
+
+  .deals-header h1, .deals-header h2 { font-size: 28px; }
+
+  .carousel {
+    height: auto;
+    padding: 16px;
+    gap: 12px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+  }
+
+  /* стрелки можно скрыть на мобилке */
+  .arrow-left, .arrow-right { display: none; }
+
+  .deal-card {
+    width: 220px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin: 0;
+    border-radius: 18px;
+  }
+  .deal-card img { max-width: 180px; }
+  .price { font-size: 32px; padding: 4px 14px; }
+  .route { font-size: 18px; }
+
+  /* ===== Testimonials ===== */
+  .testimonials-container {
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0 26px 0;
+  }
+
+  .loved { font-size: 30px; padding-top: 8px; }
+  .travelers { font-size: 30px; gap: 12px; }
+
+  /* показываем 1 карточку, остальные скрываем (без JS) */
+  .againcards {
+    padding: 18px 16px 10px 16px;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .info1, .info2, .info3 {
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .info2, .info3 { display: none; } /* если нужно только 1 отзыв на экране */
+
+  .Member, .since2015, .aaa2017 { margin-top: 10px; }
+
+  .strlks { padding: 10px 0 0 0; }
+  .strlk-left, .strlk-right {
+    width: 44px; height: 44px; font-size: 34px;
+  }
+
+  /* ===== HARD FIX: only .Four section ===== */
+  .Four{
+    width: 100% !important;
+    max-width: 430px;
+    height: auto !important;
+    background: #FFFEF0;
+    position: relative;
+    padding: 18px 0 28px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    overflow: hidden;
+  }
+
+  /* 1) Синий блок делаем фоном (так текст реально "внутри") */
+  .FonSkyThree{
+    width: calc(100% - 32px) !important;
+    height: 360px;                 /* высота синего блока на мобилке */
+    border-radius: 14px;
+    position: relative !important;
+    background-image: url("Blue.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* сам <img src="Blue.png"> прячем, чтобы не ломал поток */
+  .FonSkyThree > img{ display: none !important; }
+
+  /* 2) Кнопка внутри синего блока (справа снизу) */
+  .FonSkyThree button{
+    position: absolute !important;
+    right: 18px;
+    bottom: 18px;
+    width: 150px;
+    height: 76px;
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.05;
+    display: grid;
+    place-items: center;
+    background: #483CFF;
+    margin-right: 95px;
+  }
+
+  /* 3) Текст кладём ВНУТРЬ синего блока (центр как на рефе) */
+  .Textus{
+    position: absolute !important;
+    inset: 0;                      /* занял всю площадь синего блока */
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    pointer-events: none;          /* чтобы клики шли по кнопке */
+  }
+
+  .Textus .headline{
+    font-size: 22px;
+    color: #004449;
+    text-align: center;
+  }
+
+  .Textus .subtitle{
+    font-size: 12px;
+    line-height: 1.3;
+    color: #004449;
+    text-align: center;
+    margin: 0;
+  }
+
+  /* 4) Котик "лежит" на синем блоке слева сверху */
+  .Position{
+    position: absolute !important;
+    left: 22px;
+    top: 6px;
+    width: 120px;
+    height: auto;
+    pointer-events: none;
+  }
+
+  .imgWrapper{ width: 120px; height: auto; }
+  .imgWrapper img{ width: 100%; height: auto; display: block; }
+  .footerGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+    gap: 22px;
+    padding: 26px 16px 16px 16px;
+    margin-top: 0;
+  }
+  .footer-title { font-size: 16px; margin-bottom: 12px; }
+  .footer-col li { font-size: 12px; margin-bottom: 10px; }
+  .footer-social img { width: 22px; height: 22px; }
+  .Konec { padding: 12px 16px 20px 16px; }
+  .Konec .endInfo {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
