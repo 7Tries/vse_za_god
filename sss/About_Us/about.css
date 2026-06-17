@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pirozhok {
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-image: url(photoo/project-bg.jpg);
+}
+
+header {
+    width: 99vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dedushka {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.dedushka ul {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+}
+
+.dedushka ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.dedushka li:hover {
+    text-decoration: underline;
+}
+
+.varenik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 99vw;
+    height: 65vh;
+}
+
+.varenik h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.varenik p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pelmeni {
+    background-color: #202020;
+    height: 385vh;
+}
+
+.kotleta {
+    width: 99vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.kotleta_vnutri h1 {
+    width: 40vw;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.kotleta_vnutri p {
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 40vw;
+    position: relative;
+    bottom: 4vh;
+}
+
+.oblako {
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+
+.oblako_vnutri {
+    width: 84.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stul {
+    position: relative;
+    top: 5vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+
+.shaurma {
+    position: relative;
+    top: 10vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+
+.shaurma_vnutri {
+    width: 84.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.okroshka {
+    background-color: #202020;
+    height: 60vh;
+}
+
+.borsh {
+    width: 99vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borsh_vnutri p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.solyanka {
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.griby h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 8vh;
+}
+
+.griby h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.griby p {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.ogurcy p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    height: 8vh;
+}

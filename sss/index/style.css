@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pirozhok {
+    background-image: url(Photos/Fon1.png);
+    background-repeat: no-repeat;
+    width: 99vw;
+    height: 85vh;
+}
+
+header {
+    width: 99vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ogurets {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.ogurets ul {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+}
+
+.ogurets ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ogurets li:hover {
+    text-decoration: underline;
+}
+
+.vatrushka {
+    width: 99vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vatrushka_vnutri h1 {
+    color: white;
+    font-size: 110px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.vatrushka_vnutri p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    height: 8vh;
+}
+
+.vatrushka_vnutri h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.kalach {
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.devchonki {
+    background-color: #202020;
+}
+
+.gaga {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.gaga_vnutri {
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.kartinka {
+    width: 580px;
+    height: 690px;
+}
+
+.golem {
+    display: flex;
+    justify-content: start;
+}
+
+.robo_vnutri {
+    width: 1000px;
+    height: 540px;
+    background-color: #262D30;
+    position: relative;
+    right: 5vh;
+}
+
+.rubashka {
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.smokva {
+    width: 52vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smokva_vnutri {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 46vw;
+    height: 10vh;
+}
+
+.kvas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nashi {
+    position: relative;
+    bottom: 75vh;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.bublik {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bublik_vnutri {
+    width: 44vw;
+    display: flex;
+    justify-content: center;
+}
+
+.odin {
+    width: 25vw;
+    height: 15vh;
+    color: white;
+    position: relative;
+    bottom: 70vh;
+}
+
+.odin h1 {
+    color: #FFFFFF1A;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.odin h2 {
+    font-size: 25px;
+    height: 7vh;
+    font-weight: 400;
+}
+
+.odin p {
+    font-size: 18px;
+    width: 19.5vw;
+    font-weight: 300;
+}
+
+.jora {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jora_vnutri {
+    width: 44vw;
+    display: flex;
+    justify-content: center;
+}
+
+.dva {
+    width: 25vw;
+    height: 15vh;
+    color: white;
+    position: relative;
+    bottom: 50vh;
+}
+
+.dva h1 {
+    color: #FFFFFF1A;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.dva h2 {
+    font-size: 25px;
+    height: 5vh;
+    font-weight: 400;
+}
+
+.dva p {
+    font-size: 18px;
+    width: 19.5vw;
+    font-weight: 300;
+}
+
+.sery {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 10vw;
+    bottom: 30vh;
+    width: 628px;
+    height: 208px;
+    background-color: #262D30;
+    color: white;
+}
+
+.sem {
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sem h1 {
+    position: relative;
+    left: 1vw;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.sem p {
+    width: 170px;
+    height: 65px;
+    position: relative;
+    left: 2vw;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pyatdesyat {
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pyatdesyat h1 {
+    position: relative;
+    left: 1vw;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.pyatdesyat p {
+    width: 170px;
+    height: 65px;
+    position: relative;
+    left: 2vw;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6vh;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.zhk_vnutri {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dolina_pervaya {
+    color: white;
+    width: 959px;
+    height: 638px;
+    background-image: url(Photos/portfolio-1.png);
+    background-repeat: no-repeat;
+}
+
+.dolina_pervaya p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 638px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.vinograd_pervy {
+    color: white;
+    width: 959px;
+    height: 638px;
+    background-image: url(Photos/portfolio-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.vinograd_pervy p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 638px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.zhk_vtoroy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dolina_vtoraya {
+    color: white;
+    width: 959px;
+    height: 638px;
+    background-image: url(Photos/portfolio-4.jpg);
+    background-repeat: no-repeat;
+}
+
+.dolina_vtoraya p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 638px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.vinograd_vtoroy {
+    color: white;
+    width: 960px;
+    height: 638px;
+    background-image: url(Photos/portfolio-3.jpg);
+    background-repeat: no-repeat;
+}
+
+.vinograd_vtoroy p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 638px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.proekt {
+    width: 99.2vw;
+    height: 15vh;
+    background-color: #202020;
+}
+
+.proekt_vnutri {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.proekt_vnutri button {
+    display: flex;
+    justify-content: space-around;
+    width: 359px;
+    height: 58px;
+    background-color: #202020;
+    border: 1px solid #FFFFFF;
+}
+
+.proekt_vnutri button p {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.kontakt {
+    background-color: #202020;
+}
+
+.kontakt_vnutri {
+    width: 99vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feefee p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.posledniy {
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifi {
+    height: 42vh;
+    display: flex;
+    align-items: end;
+}
+
+.inform h1 {
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    height: 8vh;
+}
+
+.inform h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.inform h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.inform .nomer_raz {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.inform .nomer_dva {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.didzhey {
+    width: 99vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.didzhey p {
+    color: white;
+    height: 5vh;
+    font-size: 25px;
+    font-weight: 400;
+}

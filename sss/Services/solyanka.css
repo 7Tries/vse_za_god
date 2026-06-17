@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bulka {
+    width: 99vw;
+}
+
+.bulka_vnutri {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shapka {
+    width: 820px;
+    height: 1390px;
+    background-image: url(Photo/City\ _\ Kitchen-Living-Hall\ _\ 0006_\ 1.png);
+}
+
+.shapka p {
+    position: relative;
+    top: 60vh;
+    left: 7.5vw;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.bokovushka {
+    width: 1200px;
+    height: 1390px;
+    background-color: #202020;
+}
+
+nav {
+    width: 35vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bokovushka_vnutri {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ogurchik {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.ogurchik ul {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+}
+
+.ogurchik ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ogurchik li:hover {
+    text-decoration: underline;
+}
+
+.protsess {
+    display: flex;
+    justify-content: center;
+}
+
+.etapchiki {
+    width: 42vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_raz {
+    position: relative;
+    left: 10vh;
+    top: 5vh;
+}
+
+.kartinka_strelka {
+    position: relative;
+    top: 5vh;
+}
+
+.etap_raz_vnutri {
+    width: 25vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_raz_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_raz_vnutri p {
+    width: 16vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_raz p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.opisanie_raz h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.etap_dva {
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+}
+
+.etap_dva_vnutri {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_dva_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_dva_vnutri p {
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_dva p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.etap_tri {
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+}
+
+.etap_tri_vnutri {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_tri_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_tri_vnutri p {
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_tri p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.etap_chetyre {
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+}
+
+.etap_chetyre_vnutri {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_chetyre_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_chetyre_vnutri p {
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_chetyre p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.etap_pyat {
+    position: relative;
+    left: 10vh;
+    top: 15vh;
+}
+
+.etap_pyat_vnutri {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_pyat_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_pyat_vnutri p {
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_pyat p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.etap_shest {
+    position: relative;
+    left: 10vh;
+    top: 15vh;
+}
+
+.etap_shest_vnutri {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etap_shest_vnutri h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF1A;
+}
+
+.etap_shest_vnutri p {
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    top: 4vh;
+}
+
+.opisanie_shest p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    height: 8vh;
+}
+
+.levaya_kolonka {
+    width: 1085px;
+    height: 1125px;
+    background-color: #202020;
+    position: relative;
+}
+
+.pravaya_kolonka {
+    width: 820px;
+    height: 1125px;
+    background-image: url(Photo/number2.png);
+}
+
+.pravaya_kolonka p {
+    position: relative;
+    top: 58vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.polosa {
+    display: flex;
+    justify-content: center;
+}
+
+.polosa_vnutri {
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.levaya_kolonka h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    position: relative;
+    top: 29vh;
+    left: 18vw;
+}
+
+.levaya_kolonka img {
+    position: relative;
+    top: 29vh;
+    left: 18vw;
+    width: 16vw;
+}
+
+.levaya_kolonka h2 {
+    position: relative;
+    top: 32vh;
+    left: 10vw;
+    width: 36vw;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.levaya_kolonka h3 {
+    position: relative;
+    top: 34vh;
+    left: 10vw;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.levaya_kolonka .proshchay {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 36vh;
+    left: 10vw;
+    width: 34vw;
+}
+
+.dop_tekstik p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 38vh;
+    left: 10vw;
+    width: 32vw;
+}
+
+.knopka_nadzora {
+    position: relative;
+    top: 50vh;
+    left: 15vw;
+    width: 400px;
+    height: 40px;
+    background-color: #202020;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid white;
+}
+
+.podvalik {
+    background-color: #202020;
+    height: 60vh;
+}
+
+.podval_zag {
+    width: 99vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podval_zag_vnutri p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.podval_telo {
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kontakty h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 8vh;
+}
+
+.kontakty h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.kontakty p {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 5vh;
+}
+
+.priglashalka p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    height: 8vh;
+}
