@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.nachalo {
+  width: 100vw;
+  height: 90vh;
+  background-color: #141414;
+}
+.nachalo .verhushka {
+  width: 100vw;
+  height: 15vh;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.nachalo .verhushka .menyu-nav {
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nachalo .verhushka .menyu-nav .brend-logo img {
+  width: 160px;
+  height: 48px;
+}
+.nachalo .verhushka .menyu-nav .ssylki-menyu {
+  width: 30vw;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nachalo .verhushka .menyu-nav .ssylki-menyu ul {
+  width: 30vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nachalo .verhushka .menyu-nav .ssylki-menyu a {
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+.nachalo .verhushka .menyu-nav .ssylki-menyu a:hover {
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  background-color: #141414;
+}
+.nachalo .verhushka .menyu-nav .svyaz-ssylka {
+  width: 4vw;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nachalo .verhushka .menyu-nav .svyaz-ssylka ul {
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+.nachalo .verhushka .menyu-nav .svyaz-ssylka ul li {
+  display: flex;
+  justify-content: center;
+}
+.nachalo .verhushka .menyu-nav .svyaz-ssylka ul li a {
+  width: 96px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.nachalo .verhushka .menyu-nav .svyaz-ssylka ul li a:hover {
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  background-color: #141414;
+}
+.nachalo .baner {
+  width: 100vw;
+  height: 42vh;
+  display: flex;
+  padding: 90px;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-image: url(photo/Text\ Container.png);
+}
+.nachalo .baner h1 {
+  color: white;
+  font-size: 48px;
+}
+.nachalo .baner p {
+  color: #999999;
+  font-size: 18px;
+}
+.nachalo .preimushchestva {
+  width: 100vw;
+  height: 24vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nachalo .preimushchestva .preim-kartochka {
+  width: 435px;
+  height: 212px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  border: 0.5px solid gray;
+  background-color: #1A1A1A;
+}
+.nachalo .preimushchestva .preim-kartochka .strelka-ugol {
+  width: 20vw;
+  height: 3.5vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.prodazha {
+  width: 100vw;
+  height: 85vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  background-color: #141414;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.prodazha .prodazha-vvedenie {
+  width: 1596px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.prodazha .prodazha-vvedenie h1 {
+  color: white;
+  font-size: 48px;
+}
+.prodazha .prodazha-vvedenie p {
+  color: #999999;
+  font-size: 18px;
+}
+.prodazha .uslugi-setka {
+  width: 100%;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prodazha .uslugi-setka .uslugi-verh,
+.prodazha .uslugi-setka .uslugi-niz {
+  width: 100%;
+  height: 22vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-kartochka,
+.prodazha .uslugi-setka .uslugi-niz .usluga-kartochka {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  width: 25.5vw;
+  padding: 25px;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-kartochka div,
+.prodazha .uslugi-setka .uslugi-niz .usluga-kartochka div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-kartochka div h2,
+.prodazha .uslugi-setka .uslugi-niz .usluga-kartochka div h2 {
+  font-size: 24px;
+  color: white;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-kartochka div img,
+.prodazha .uslugi-setka .uslugi-niz .usluga-kartochka div img {
+  margin-right: 10px;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-kartochka p,
+.prodazha .uslugi-setka .uslugi-niz .usluga-kartochka p {
+  font-size: 18px;
+  color: #999999;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner {
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 52.8vw;
+  height: 22vh;
+  background-image: url(./photo/Card.png);
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner div,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner div h2,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner div h2 {
+  color: white;
+  font-size: 24px;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner div button,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner div button {
+  color: white;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  height: 5vh;
+  width: 6vw;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner div button:hover,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner div button:hover {
+  background-color: #262626;
+}
+.prodazha .uslugi-setka .uslugi-verh .usluga-banner p,
+.prodazha .uslugi-setka .uslugi-niz .usluga-banner p {
+  color: #999999;
+  font-size: 18px;
+}
+
+.upravlenie {
+  width: 100vw;
+  height: 85vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  background-color: #141414;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.upravlenie .upravlenie-vvedenie {
+  width: 1596px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.upravlenie .upravlenie-vvedenie h1 {
+  color: white;
+  font-size: 48px;
+}
+.upravlenie .upravlenie-vvedenie p {
+  color: #999999;
+  font-size: 18px;
+}
+.upravlenie .upravlenie-setka {
+  width: 100%;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh,
+.upravlenie .upravlenie-setka .upravlenie-niz {
+  width: 100%;
+  height: 22vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-kartochka,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-kartochka {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  width: 25.5vw;
+  padding: 25px;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-kartochka div,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-kartochka div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-kartochka div h2,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-kartochka div h2 {
+  color: white;
+  font-size: 24px;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-kartochka div img,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-kartochka div img {
+  margin-right: 10px;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-kartochka p,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-kartochka p {
+  font-size: 18px;
+  color: #999999;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner {
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 52.8vw;
+  height: 22vh;
+  background-image: url(./photo/Card.png);
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner div,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner div h2,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner div h2 {
+  color: white;
+  font-size: 24px;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner div button,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner div button {
+  color: white;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  height: 5vh;
+  width: 6vw;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner div button:hover,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner div button:hover {
+  background-color: #262626;
+}
+.upravlenie .upravlenie-setka .upravlenie-verh .upravlenie-banner p,
+.upravlenie .upravlenie-setka .upravlenie-niz .upravlenie-banner p {
+  color: #999999;
+  font-size: 18px;
+}
+
+.investicii {
+  width: 100%;
+  height: 75vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  background-color: #141414;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.investicii .investicii-vvedenie {
+  width: 30vw;
+}
+.investicii .investicii-vvedenie h1 {
+  color: white;
+  font-size: 38px;
+}
+.investicii .investicii-vvedenie p {
+  color: #999999;
+  font-size: 16px;
+}
+.investicii .investicii-levaya {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+}
+.investicii .investicii-levaya .investicii-banner {
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 412px;
+  height: 298px;
+  background-image: url(./photo/Card1.png);
+}
+.investicii .investicii-levaya .investicii-banner h2 {
+  color: white;
+}
+.investicii .investicii-levaya .investicii-banner p {
+  color: #999999;
+}
+.investicii .investicii-levaya .investicii-banner button {
+  width: 100%;
+  height: 6vh;
+  border-radius: 10px;
+  border: #262626 1px solid;
+  background-color: #141414;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.investicii .investicii-levaya .investicii-banner button:hover {
+  background-color: #262626;
+}
+.investicii .investicii-setka {
+  position: relative;
+  top: 2vh;
+  width: 55%;
+  height: 85.5%;
+  border-radius: 10px;
+  border: #262626 1px solid;
+  background-color: #1A1A1A;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.investicii .investicii-setka .investicii-verh {
+  height: 47%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.investicii .investicii-setka .investicii-niz {
+  height: 47%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.investicii .investicii-setka .investicii-kartochka {
+  padding: 20px;
+  width: 48%;
+  height: 100%;
+  background-color: #141414;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+.investicii .investicii-setka .investicii-kartochka div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.investicii .investicii-setka .investicii-kartochka div img {
+  margin-right: 1vw;
+}
+.investicii .investicii-setka .investicii-kartochka h2 {
+  font-size: 24px;
+  color: white;
+}
+.investicii .investicii-setka .investicii-kartochka p {
+  color: #999999;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.prizyv {
+  width: 100vw;
+  height: 29vh;
+  background-color: #141414;
+  background-image: url(photo/CTA\ \(1\).png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prizyv .prizyv-obertka {
+  width: 89vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prizyv .prizyv-obertka .prizyv-tekst {
+  width: 1154px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.prizyv .prizyv-obertka .prizyv-tekst h1 {
+  color: white;
+  font-size: 48px;
+}
+.prizyv .prizyv-obertka .prizyv-tekst p {
+  color: #999999;
+  font-size: 18px;
+}
+.prizyv .prizyv-obertka .prizyv-knopka {
+  width: 192px;
+  height: 63px;
+  background-color: #703BF7;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.prizyv .prizyv-obertka .prizyv-knopka:hover {
+  background-color: #5a2fd6;
+}
+
+.podval {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+}
+.podval .podval-verh {
+  width: 90vw;
+  height: 35vh;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.podval .podval-verh .podval-info {
+  width: 538px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.podval .podval-verh .podval-info .podval-logo {
+  width: 160px;
+  height: 48px;
+}
+.podval .podval-verh .podval-info .podval-pochta {
+  width: 323px;
+  height: 46px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #141414;
+  border: 0.5px solid gray;
+  cursor: pointer;
+  font-size: 15px;
+}
+.podval .podval-verh .podval-menyu {
+  width: 978px;
+  height: 254px;
+  display: flex;
+  justify-content: space-between;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka {
+  width: 160px;
+  height: 274px;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka h3 {
+  padding-bottom: 20px;
+  color: #999999;
+  font-size: 18px;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka p {
+  padding-bottom: 14px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.podval .podval-verh .podval-menyu .podval-kolonka p:hover {
+  color: #703bf7;
+}
+.podval .podval-niz {
+  width: 100vw;
+  height: 10vh;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.podval .podval-niz .podval-prava {
+  width: 600px;
+  height: 20px;
+  display: flex;
+}
+.podval .podval-niz .podval-prava p {
+  padding-right: 20px;
+  font-size: 15px;
+}
+.podval .podval-niz .podval-socseti img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}/*# sourceMappingURL=service.css.map */

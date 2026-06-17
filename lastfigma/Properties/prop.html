@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="prop.css">
+</head>
+<body>
+    <section class="nachalo">
+        <header class="verhushka">
+            <nav class="menyu-nav">
+                <div class="brend-logo">
+                    <img src="photo/Logo.png" alt="Logo">
+                </div>
+                <div class="ssylki-menyu">
+                    <ul>
+                        <li><a href="../Home/index.html">Home</a></li>
+                        <li><a href="../About Us/about.html">About Us</a></li>
+                        <li><a href="../Properties/prop.html">Properties</a></li>
+                        <li><a href="../Service/service.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="svyaz-ssylka">
+                    <ul>
+                        <li><a href="../ContactUs/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="baner">
+            <h1>Find Your Dream Property</h1>
+            <p>Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey begins here.</p>
+        </div>
+    </section>
+
+    <section class="poisk">
+        <div class="poisk-centr">
+            <div class="poisk-stroka">
+                <input type="text" placeholder="Search For A Property" class="pole-poiska">
+                <button class="knopka-poiska">Find Property</button>
+            </div>
+            <div class="filtry-setka">
+                <select class="filtr-vybor" name="mesto">
+                    <option value="galaxy">Location</option>
+                </select>
+                <select class="filtr-vybor" name="tip">
+                    <option value="galaxy">Property Type</option>
+                </select>
+                <select class="filtr-vybor" name="cena">
+                    <option value="galaxy">Pricing Range</option>
+                </select>
+                <select class="filtr-vybor" name="razmer">
+                    <option value="galaxy">Property Size</option>
+                </select>
+                <select class="filtr-vybor" name="god">
+                    <option value="galaxy">Build Year</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="nedvizhimost">
+        <div class="nedvizh-zagolovok">
+            <div class="nedvizh-tekst">
+                <h1>Featured Properties</h1>
+                <p>Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.</p>
+            </div>
+            <button class="knopka-vse">View All Properties</button>
+        </div>
+        <div class="nedvizh-setka" id="spisok-nedvizh"></div>
+        <div class="paginaciya">
+            <div class="paginaciya-liniya"></div>
+            <div class="paginaciya-niz">
+                <p class="paginaciya-info"><span>01</span> of 60</p>
+                <div class="paginaciya-knopki">
+                    <button class="strelka-krug">←</button>
+                    <button class="strelka-krug">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="zayavka">
+        <div class="zayavka-zagolovok">
+            <div class="zayavka-tekst">
+                <h1>Let's Make it Happen</h1>
+                <p>Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.</p>
+            </div>
+        </div>
+        <div class="zayavka-obertka">
+            <div class="zayavka-blok">
+                <div class="stroka-poley">
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter First Name" class="pole-vvod">
+                        </div>
+                    </div>
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter Last Name" class="pole-vvod">
+                        </div>
+                    </div>
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your Email" class="pole-vvod">
+                        </div>
+                    </div>
+                    <div class="pole-gruppa">
+                        <div class="pole-label">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Enter Phone Number" class="pole-vvod">
+                        </div>
+                    </div>
+                </div>
+                <div class="stroka-poley">
+                    <div class="pole-vybor">
+                        <label>Preferred Location</label>
+                        <select class="spisok" name="mesto">
+                            <option value="galaxy">Selected Location</option>
+                        </select>
+                    </div>
+                    <div class="pole-vybor">
+                        <label>Property Type</label>
+                        <select class="spisok" name="tip">
+                            <option value="galaxy">Select Property Type</option>
+                        </select>
+                    </div>
+                    <div class="pole-vybor">
+                        <label>No. of Bathrooms</label>
+                        <select class="spisok" name="vannye">
+                            <option value="galaxy">Select no. of Bathrooms</option>
+                        </select>
+                    </div>
+                    <div class="pole-vybor">
+                        <label>No. of Bedrooms</label>
+                        <select class="spisok" name="spalni">
+                            <option value="galaxy">Select no. of Bedrooms</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="stroka-poley">
+                    <div class="pole-vybor-shirokoe">
+                        <label>Budget</label>
+                        <select class="spisok-shirokiy" name="byudzhet">
+                            <option value="galaxy">Select Budget</option>
+                        </select>
+                    </div>
+                    <div class="pole-kontakty">
+                        <div class="pole-kontakt">
+                            <label>Preferred Contact Method</label>
+                            <input type="text" placeholder="Enter Phone Number" class="pole-vvod">
+                        </div>
+                        <div class="pole-kontakt">
+                            <input type="text" placeholder="Enter Email Address" class="pole-vvod">
+                        </div>
+                    </div>
+                </div>
+                <div class="stroka-poley">
+                    <div class="pole-soobshenie">
+                        <label>Message</label>
+                        <textarea placeholder="Enter your Message here.." class="pole-tekst"></textarea>
+                    </div>
+                </div>
+                <div class="zayavka-niz">
+                    <label class="soglasie">
+                        <input type="checkbox">
+                        <span class="soglasie-tekst">I agree with <span class="podcherk">Terms of Use</span> and <span class="podcherk">Privacy Policy</span></span>
+                    </label>
+                    <button class="otpravit">Send Your Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prizyv">
+        <div class="prizyv-obertka">
+            <div class="prizyv-tekst">
+                <h1>Start Your Real Estate Journey Today</h1>
+                <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
+            </div>
+            <button class="prizyv-knopka">Explore Properties</button>
+        </div>
+    </section>
+
+    <footer class="podval">
+        <div class="podval-verh">
+            <div class="podval-info">
+                <img class="podval-logo" src="photo/Logo.png" alt="Logo">
+                <button class="podval-pochta">Enter Your Email <img src="photo/Icon (1).png" alt="Send"></button>
+            </div>
+            <div class="podval-menyu">
+                <div class="podval-kolonka">
+                    <h3>Home</h3>
+                    <p>Hero Section</p>
+                    <p>Features</p>
+                    <p>Properties</p>
+                    <p>Testimonials</p>
+                    <p>FAQ's</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>About Us</h3>
+                    <p>Our Story</p>
+                    <p>Our Works</p>
+                    <p>How It Works</p>
+                    <p>Our Team</p>
+                    <p>Our Clients</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Properties</h3>
+                    <p>Portfolio</p>
+                    <p>Categories</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Services</h3>
+                    <p>Valuation Mastery</p>
+                    <p>Strategic Marketing</p>
+                    <p>Negotiation Wizardry</p>
+                    <p>Closing Success</p>
+                    <p>Property Management</p>
+                </div>
+                <div class="podval-kolonka">
+                    <h3>Contact Us</h3>
+                    <p>Contact Form</p>
+                    <p>Our Offices</p>
+                </div>
+            </div>
+        </div>
+        <div class="podval-niz">
+            <div class="podval-prava">
+                <p>@2023 Estatein. All Rights Reserved.</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="podval-socseti">
+                <img src="photo/Social Icon.png" alt="Social">
+            </div>
+        </div>
+    </footer>
+
+    <script src="prop.js"></script>
+</body>
+</html>
